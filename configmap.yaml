@@ -1,0 +1,36 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: nginx-html
+
+data:
+  index.html: |
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <title>Kauushik Kubernetes Project</title>
+    </head>
+    <body>
+      <h1>Kubernetes Nginx Deployment</h1>
+
+      <h2>Built by Kauushik Selvan</h2>
+
+      <p>This application is running inside Kubernetes.</p>
+
+      <p>Deployment, Pods and Service are managed by Kubernetes.</p>
+
+      <h3>Technologies Used</h3>
+
+      <ul>
+        <li>Kubernetes</li>
+        <li>Docker</li>
+        <li>Nginx</li>
+        <li>YAML</li>
+      </ul>
+
+      <p><strong>Replicas:</strong> 3 Pods</p>
+
+      <p><strong>Project:</strong> Kubernetes Nginx Deployment with 3 Replica Pods</p>
+    </body>
+    </html>
