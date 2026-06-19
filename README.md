@@ -108,6 +108,8 @@ The application displays a custom Kubernetes project page hosted through Nginx a
 
 ![Service](screenshots/service-output.png)
 
+Check for the screenshots in the screenshots folder
+
 ---
 
 ## Author
